@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Alex Brush', cursive;
+  font-size: 250px;
+  color: #767B91;
+}
+
+h2{
+  font-family: 'Alex Brush', cursive;
+  font-size: 150px;
+  position: absolute;
+  left: 50px;
+  top: 600px;
+}
+
+#watercolor {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  top: 100px;
+}
+
+mark {
+  background-color: #FFCAD4;
+  color: black;
+  margin: 5;
+  color: #FFFCF9;
+}
+
+#where {
+  color: #;
+  border-style: double;
+  border-width: 5px;
+  padding: 20px;
+  border-color: #ECE2D0;
+  left: 22px;
+}
+
+#takeoff {
+  background-color: #DDC4DD;
+  font-size: 100px;
+  font-family: 'Knewave', cursive;
+  margin: 30px;
+  border-radius: 50%;
+  width: 40%;
+}
+
+#stayhome {
+  background-color: #AAACB0;
+  font-size: 100px;
+  font-family: 'Knewave', cursive;
+  margin: 30px;
+  border-radius: 50%;
+  width: 40%;
+  color: #4B4E6D;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+#goto {
+  font-family: 'Alex Brush', cursive;
+  font-size: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* document.getElementById("stayhome").disabled = true; */
+
+ #placeholder{
+  font-size: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Alex Brush', cursive;
+ }
+
+/* #answer { */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+/* }  */
+/*  command slash! You don't need a div to flex it!
